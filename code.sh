@@ -18,7 +18,7 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg --install google-chrome-stable_current_amd64.deb
 sudo apt install --assume-yes --fix-broken
 sudo apt install nautilus nano -y 
-sudo adduser b4iterdev chrome-remote-desktop
+sudo adduser alessioscarlet chrome-remote-desktop
 } &> /dev/null &&
 printf "\nSetup Complete \nCreated new user alessioscarlet with password:scarlet \nYou can change both alessioscarlet's password with passwd(with no sudo) \nOr you can change root's password with sudo passwd" >&2 ||
 printf "\nError Occured " >&2
